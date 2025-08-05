@@ -4,7 +4,7 @@ const LoginControl = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   return (
-    <div className="p-6 bg-white rounded-xl shadow-md text-center space-y-4">
+    <div className="p-6 bg-white w-1/4 rounded-xl shadow-md text-center space-y-4">
       <h2 className="text-xl font-semibold">조건부 로그인</h2>
       {isLoggedIn ? (
         <>
